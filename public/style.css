@@ -151,6 +151,7 @@ body {
     align-items: baseline;
     justify-content: baseline;
     text-align: baseline;
+    position: relative;
     z-index: 10;
 }
 
@@ -160,18 +161,19 @@ body {
     font-weight: 900;
     font-family: 'Europ', sans-serif;
     letter-spacing: 4px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 /* Right Side: Lorem Ipsum */
 .right-text {
     position: absolute;
-    right: 30px;
-    top: calc(50% + 80px);
-    max-width: 250px;
+    right: 0px;
+    bottom: -90px;
+    max-width: 660px;
+    font-family: noto sans, sans-serif;
+    font-weight: 500;
     color: #fff;
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 24px;
 }
 
 /* Bottom Left: Time */
